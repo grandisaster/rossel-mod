@@ -1,0 +1,29 @@
+.quitContainer {display: flex;
+
+flex-direction: column;
+}
+
+
+.menuItem {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #333333;
+}
+
+.menuText {
+
+    font-size: 15px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+.menuIcon {
+
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

@@ -1,0 +1,72 @@
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .parametersBlock {
+    width: 463px;
+    height: 470px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FBFBFB;
+    position: absolute;
+    top: 205px;
+    left: 13px;
+    padding-left: 10px;
+    
+  }
+  
+  .menuCategory {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  
+  .menuItem {
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #333333;
+  }
+  
+  .menuTitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: -5px;
+  }
+  
+  .menuGrayText {
+    font-size: 13px;
+    color: #999999;
+    margin-bottom: 0px;
+  }
+  
+  .menuText {
+    font-size: 15px;
+    margin-bottom: 5px;
+    white-space: nowrap; 
+  }
+  
+  .menuTextRight {
+    font-size: 15px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    white-space: nowrap; 
+  }
+  
+  .menuIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .menuIconRight {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
